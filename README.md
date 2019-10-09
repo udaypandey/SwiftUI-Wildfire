@@ -10,8 +10,7 @@ This project does not try to provide a way for SwiftUI to work before IOS 13. In
 
 ### How it works
 
-* 
-In Appdelegate, mark new UISceneSession APIs as IOS 13 only. Conditionally build pre IOS 13 UI in `didFinishLaunchingWithOptions` callback.
+* In AppDelegate, mark new UISceneSession APIs as IOS 13 only. Conditionally build pre IOS 13 UI in `didFinishLaunchingWithOptions` callback.
 
 ```
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -19,7 +18,7 @@ In Appdelegate, mark new UISceneSession APIs as IOS 13 only. Conditionally build
             // Code for earlier OS
             let window = UIWindow()
 
-            let rootViewController = LoginViewController()
+            let rootViewController = ...
             window.rootViewController = rootViewController
             self.window = window
             window.makeKeyAndVisible()
