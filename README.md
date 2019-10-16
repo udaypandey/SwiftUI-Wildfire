@@ -1,12 +1,13 @@
 # SwiftUI & Pre IOS 13 Support
 
-This is a sample project which allows SwiftUI and pre IOS 13 code to coexist and provide support till IOS 9.
+This is a proof of concept sample project to support SwiftUI and pre IOS 13 code to coexist and provide support till IOS 9.
 
 ### Requirements
 
-The requirement came from an existing project which supports IOS 9 and will continue to support IOS 9 for for the foreseeable future. At the same time, there is a requirement to build a new version of the app using SwiftUI.
+The requirement came from an existing project which supports upto IOS 9 and will continue to support it for the foreseeable future. At the same time, there is a requirement to build a new version of the app using SwiftUI. The project does not try to provide a way for SwiftUI to work before IOS 13.
 
-This project does not try to provide a way for SwiftUI to work before IOS 13. Infact it just allows a way to support the existing app for versions prior to IOS 13 and switch to SwiftUI based code for 13 and beyond.
+* Surface new SwiftUI version of the app for IOS 13 and above.
+* Switch to current app for IOS 12 and below.
 
 ### How it works
 
